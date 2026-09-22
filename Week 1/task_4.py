@@ -4,7 +4,7 @@
 
 value = int(input("Enter value to be factorialise : "))
 
-if value > 0:
+if value >= 0:
     # 0! = 1 so this solves for that as well
     result = 1
     temp = value
